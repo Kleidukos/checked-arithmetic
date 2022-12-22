@@ -47,13 +47,6 @@ foreign import capi "__builtin_sadd_overflow"
     -> Ptr CInt
     -> Bool
 
--- For all 32-bit unsigned ints:
-
--- * CUInt
-
--- * Word32
-
--- * CUSeconds
 foreign import capi "__builtin_uadd_overflow"
   builtin_uadd_overflow
     :: Word32
